@@ -1,0 +1,16 @@
+max_on_market_price: 600000
+min_sqft_soft: 1800
+min_sqft_strong: 2200
+min_baths_soft: 2
+min_baths_strong: 3
+hoa_policy: reject_if_yes
+cdd_policy: warn_if_yes
+counties: [Hillsborough_FL]
+alerts: email
+alert_email_enabled: false
+alert_email_smtp_host: smtp.example.com
+alert_email_smtp_port: 587
+alert_email_username: your_username
+alert_email_password: your_password
+alert_email_from: scanner@example.com
+alert_email_to: [you@example.com]
